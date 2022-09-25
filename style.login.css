@@ -1,0 +1,152 @@
+.body {
+    margin: -8px;
+}
+
+.heading {
+    heigth: 20vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.logo {
+    width: 12%;
+    display: flex;
+	align-items: center;
+}
+
+.h1 {
+    font-family: Calibri light;
+    color: #555555;
+    font-size: 35px;
+}
+
+.paragraph {
+    font-family: Calibri light;
+    color: #555555;
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	margin-top: -20px;
+
+}
+
+.square {
+	height: 270px;
+    background: light-grey;
+    width: 300px;
+    box-sizing: border-box;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px #cccccc;
+
+}
+.profile {
+    border-radius: 50%;
+    background-color: #c2c0c0;
+    width: 100px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: stretch;
+	margin-top: 20px;
+}
+
+.input {
+    background-color: #faf6bb;
+    border: 1px solid #cccccc;
+    height: 30px;
+    width: 220px;
+    padding-left: 10px;
+
+}
+.button {
+    height: 30px;
+    width: 230px;
+    background-color: #3e5df7;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: -10px;
+}
+
+.help {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: calibri;
+    color: #3e5df7;
+    font-size: 12px;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+
+
+.bottom {
+    height: 20vh;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	font-family: calibri;
+	margin-top: -30px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #3e5df7;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	margin-top: -45px;
+}
+
+.footer {
+    border-top: 1px solid grey;
+    height: 20px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0px;
+
+
+}
+
+.text {
+    width: 420px;
+    text-decoration: none;
+    color: grey;
+    font-family: calibri;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+	align-items: center;
+	align-content: space-evenly;
+	padding-left: 20px;
+	padding-top: 5px;
+
+}
